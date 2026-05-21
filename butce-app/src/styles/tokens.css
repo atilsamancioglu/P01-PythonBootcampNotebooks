@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Surface */
+  --bg-base: #0b0d10;
+  --bg-elev-1: #14181d;
+  --bg-elev-2: #1c2229;
+  --bg-elev-3: #252c35;
+  --border-soft: rgba(255, 255, 255, 0.06);
+  --border-strong: rgba(255, 255, 255, 0.12);
+
+  /* Text */
+  --text-1: #f4f6f8;
+  --text-2: #b6becb;
+  --text-3: #7a8493;
+  --text-muted: #4d5663;
+
+  /* Accent */
+  --accent: #7cc4ff;
+  --accent-soft: rgba(124, 196, 255, 0.14);
+  --positive: #4ade80;
+  --positive-soft: rgba(74, 222, 128, 0.14);
+  --negative: #f87171;
+  --negative-soft: rgba(248, 113, 113, 0.14);
+  --warning: #fbbf24;
+  --warning-soft: rgba(251, 191, 36, 0.14);
+
+  /* Category palette */
+  --cat-1: #7cc4ff;
+  --cat-2: #c4b5fd;
+  --cat-3: #f9a8d4;
+  --cat-4: #fcd34d;
+  --cat-5: #6ee7b7;
+  --cat-6: #fdba74;
+  --cat-7: #a5b4fc;
+  --cat-8: #f87171;
+
+  /* Account colors (8 önerilen) */
+  --acc-1: #60a5fa;
+  --acc-2: #34d399;
+  --acc-3: #f472b6;
+  --acc-4: #fbbf24;
+  --acc-5: #a78bfa;
+  --acc-6: #fb923c;
+  --acc-7: #2dd4bf;
+  --acc-8: #f87171;
+
+  /* Typography */
+  --font-sans: 'Outfit', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Spacing */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-7: 32px;
+  --space-8: 48px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadow */
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --shadow-md: 0 6px 18px rgba(0,0,0,0.4);
+  --shadow-lg: 0 18px 48px rgba(0,0,0,0.5);
+
+  /* Motion */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-fast: 120ms;
+  --dur: 220ms;
+  --dur-slow: 380ms;
+
+  /* Layout */
+  --max-w: 480px;
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
